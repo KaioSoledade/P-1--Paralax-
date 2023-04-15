@@ -56,6 +56,7 @@ section.module.content{
     background-color: #ece7ce;
 }
 
+/*Responsavel pelo efeito parallax (background-attachment: fixed;)*/
 section.module.parallax{
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@ section.module.parallax{
     -webkit-backdrop-size: cover;
     -moz-background-size: cover;
 }
-
+/*section responsavel pelo efeito de sombra sobre o efeito parallax*/
 section.module.parallax:after{
     content: "";
     height: 100%;
