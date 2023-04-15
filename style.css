@@ -32,9 +32,10 @@ main{
     
 }
 
-.h1-texto{
+section.module h1 {
     text-align: center;
     color: white;
+    font-size: 78px;
 
 }
 
@@ -85,6 +86,7 @@ section.module.parallax:after{
     background: linear-gradient( to bottom, rgb(0,0,0,0) 0%, rgb(0,0,0,0) 40%, #000 100%);
 }
 
+
 section.module.parallax-1{
     background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089851692687818822/hum_starry_landscape_8K__fotorrealista__ultra_fotorreal__ultra__7f1c37cf-4787-4314-b2d5-645041d9a751.png);
 
@@ -99,3 +101,4 @@ section.module.parallax-3{
     background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089351675313143819/hum_water_droplets_on_a_leaf_and_forest_background_8K__fotorrea_91542a30-a06c-4112-b95f-6afd114f9660.png)
 
 }
+
