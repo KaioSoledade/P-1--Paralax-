@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4{
+    font-weight: 900;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main{
+    display: block;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 720px;
+    max-width: 0 auto;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+}
+
+.h1-texto{
+    text-align: center;
+    color: white;
+
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0px;
+}
+
+section.module h2{
+    margin-bottom: 1em;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0 ;
+    background-color: #ece7ce;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-backdrop-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient( to bottom, rgb(0,0,0,0) 0%, rgb(0,0,0,0) 40%, #000 100%) ;
+    background: -moz-linear-gradient( to bottom, rgb(0,0,0,0) 0%, rgb(0,0,0,0) 40%, #000 100%) ;
+    background: linear-gradient( to bottom, rgb(0,0,0,0) 0%, rgb(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+    background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089851692687818822/hum_starry_landscape_8K__fotorrealista__ultra_fotorreal__ultra__7f1c37cf-4787-4314-b2d5-645041d9a751.png);
+
+}
+
+section.module.parallax-2{
+    background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089364175156949082/hum_sakura_tree_in_landscape_with_leaf_flying_and_forest_backgr_b8c0dc2e-7938-403e-abc7-ba1896896973.png)
+
+}
+
+section.module.parallax-3{
+    background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089351675313143819/hum_water_droplets_on_a_leaf_and_forest_background_8K__fotorrea_91542a30-a06c-4112-b95f-6afd114f9660.png)
+
+}
